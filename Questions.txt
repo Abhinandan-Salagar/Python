@@ -1,0 +1,87 @@
+# TIME TILL 8.40 AM.
+
+Q1. As a developer you have received a file "formula.mp4" from your team. You have to identify weather its a python file or not?
+
+Q2. Make a Simple Interest Calculator. Take the principal , rate of interest and number of years from the user.
+
+Q3. Given any number from the user, find weather its a multiple of 11 or not ? 
+
+Q4. Given a string below, find the number of times blank spaces are there ;HINT : FOR Loop
+    "You are doing an amazing job as a Python resource. Keep excelling  ..  "
+
+Q5. Given a string below, find out how many special chars (Including spaces) are present; HINT : FOR Loop
+    "This is the #worst product * I have @bought ONLINE !!!~"
+    
+Q6. Given a string below, there is an encrypted word hidden between. Here encrypted word is defined as alphabets ONLY. 
+    Find that word; HINT : FOR Loop
+    "g$#270*8R746e0.2A__+_)(^!@#~t*^$%^689652||"
+
+Q7. Make pattern as below; HINT : FOR Loop
+    $
+    $$
+    $$$
+    
+Q8. Make pattern as below; HINT : FOR Loop
+    666666
+    55555
+    4444
+    333
+    22
+    1
+    
+Q9. Make pattern as below; HINT : FOR Loop
+    1
+    4
+    9
+    16
+    25
+    36
+    49
+    64
+    81
+    100
+
+Q10. Given the string below, you have to display the expected output ; 
+    Input : myString = "python java ruby c++ julia"
+    Output : java
+    Output : c++
+    Output : ruby
+    
+Q11. Given the string below, you have to display the expected output ; 
+    Input : myString = "python java ruby c++ julia"
+    Output : "nodeJS java ruby c++ julia"
+    Output : "python java ruby .net julia"
+
+
+Q12. Find weather a number is PRIME or not.
+    Case1 : 
+    Input : 6
+    Output : Not a Prime
+
+    Case2 : 
+    Input : 11
+    Output : Prime
+
+
+Q13. Find weather a string is in Palindrome or not.
+    Palindrome are the words that can be read from right to left or left to right and it stays the same
+    Example : madam is a palindrome
+    Example : 12321 is a palindrome
+    Example : naman is a palindrome
+    Example : wow is a palindrome
+    Example : 456 not a palindrome
+    Example : ply not a palindrome
+    Example : adg not a palindrome
+
+Q14. Make a program for Systmatic Investment Plan (SIP).
+    Take the number of years, monthly investment and EXPECTED rate of interest from the user.
+
+
+Q15. Find weather two strings are anagrams are of each other. 
+    Anagrams are defined as the word that when put in ascending order, its the same word
+    Example : tea and eat are anagrams
+    Example : sit and its are anagrams
+    Example : there and their are not anagrams
+    Example : seven and even are not anagrams
+    Example : ulbe and blue are anagrams
+

@@ -1,0 +1,147 @@
+
+Github - 
+- Cloud Server where the data can be uploaded and shared among your peers.
+- if system goes down, then all can have a copy of the data
+
+sunil - manager - master
+nitish - user - peers
+
+Repository - folder - 25MB
+Branch - subfolder
+
+
+Q. Create a repo and upload file (any) over there..
+How to Upload Files 
+Add File -> Upload Files
+
+Starred - Bookmarking the URL
+			-	Save the URL, and check out the content of the folder
+			-	 if URL is gone, then that data is lost
+
+Fork		-	Keping a Copy from Someone's Github to your own Github Account
+			-	 if URL is gone, then that data is not lost
+			-	Do contributions towards that account
+			-	tracl the changes
+
+Pull Request - Changes between forked Accounts
+				 -	Raising a ticket to show your work to the manager (master / parent)
+				- if accepted, then SYNC the fork to check out the changes
+
+
+Pushing		-	Add File -> Upload Files
+				- Keeping a copy of the files from your local system to the github account
+
+
+Clone		-	Code -> Download Zip	
+			-	Keeping a copy from github account to your local system
+
+
+
+____________________________ Git Commands ________________________________
+
+Download Git -> https://git-scm.com/downloads
+			-> Jupyter Terminal
+
+Linux Commnads : 
+pwd : present working directory
+ls : list down all the files..
+cd : Change the Directory
+	cd path
+	cd ..  : Come out of the folder
+
+mkdir : create the folder
+rmdir : remove the folder
+
+
+
+
+------------------------- Account Setup ------------------------------
+
+1. git config --global user.email "yourEmail"
+ git config --global user.email "nitishvig007@gmail.com"
+
+
+2. git config --global user.name "yourUserName"
+ git config --global user.name "nitishvig007"
+
+
+3. git config --global user.passsword "yourPasssword"
+ git config --global user.passsword "************"
+
+
+Save this : 
+4. git config --global credential.helper store
+
+
+Check if saved or not: 
+5. git config --list --show-origin
+
+
+For MAC users , Token for signing up: 
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi63_f03f38AhXyZWwGHfGFDuQQFnoECBEQAw&url=https%3A%2F%2Fwww.theserverside.com%2Fblog%2FCoffee-Talk-Java-News-Stories-and-Opinions%2FHow-to-create-a-GitHub-Personal-Access-Token-example&usg=AOvVaw0jTQyWIdIGt3shm_5BEjUu
+
+
+
+_______________________ Upload to your Github Account ________________
+
+
+-----------
+Notes : 
+Creating New repository on github will also create a sub branch as "main"
+Git Link :: Code -> HTTPS -> https://github.com____________gitSession.git
+git is a hidden file that tracks contains the info of your email, username, password, github repo link
+
+a. add your git link to it (make sure, account set up was completed on git bash or jupyter terminal) : 
+	a1 : Copy the git link (Code -> HTTPS)
+	a2. syntax : git remote add origin https__________.git
+		ex : git remote add origin https://github.com/sunil1510k/gitSession.git
+
+b. Check for sub branch, if its same on github and git bash
+syntax : git branch -m oldName newName
+Ex : git branch -m master main
+
+c. git status :: track the activity
+------------
+
+
+
+Steps for Pushing the data : **Make sure its your own GITHUB account**
+1. git init : have reference to your email, username, password, github repo link
+2. git add . 
+this will add all the files available inside the folder
+3. git commit -m "yourMessage"
+4.	git push
+	git push -f origin branchName (branchName : main/master/nitish)
+
+
+
+Steps to copy from github to local :: CLONE **It can be any github account**
+1. Create a local Destination Folder
+2. copy the git link :: https:/___________.git ( Code -> HTTPS  )
+3. git clone https::///______________.git
+
+On Cloning, .git hidden folder is already there, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

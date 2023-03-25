@@ -1,0 +1,49 @@
+
+Modules and Packages : 
+
+
+Library ( site-packages )
+- collection of packages
+- collection of folders and files (.py)
+- Path : C:\Users\Nitish\AppData\Roaming\Python\Python36
+- Path : C:\Users\Nitish\AppData\Local\Python\Python36
+
+
+Package 
+- collection of folders and python files
+- Identification : __init__.py
+
+
+
+Module
+- Function that is created inside the Python file and is called to another Python File.
+
+
+Function - Module - Method
+Method - Function called inside a CLASS
+
+
+
+# How to Install the package
+
+# Use the below command in Terminal. Windows : Command Prompt (cmd)
+# pip --> Add to Path
+pip install packageName
+
+!pip install packageName --> USED IN JUPYTER NOTEBOOK ONLY
+
+
+
+######### Calling the Functions from your Python File ############
+# The File shall be present in your database
+
+# First it tries to find the package in the SYSTEM folder
+# Them it will find the package in the CURRENT folder
+# If Package is not there in Both Folders, then error is ModuleNotFoundError
+
+
+
+
+
+
+

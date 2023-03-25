@@ -1,0 +1,89 @@
+
+Q1. Find the number of vowels and digits and spaces from the below string..
+myString = "this is the python programming batch of febuary"
+
+Q2. find which of them is in palindromes.
+inputList = ["madam", "naman", "12321", "7530", False, 45621, 85258, "ADDydda"]
+outputList = ["madam", "naman", "12321", 85258, "ADDydda"]
+
+Q3. Find the factorial of the numbers written inside the tuple;
+input = (8, 3, 0, -5, 10, 5)
+
+
+Q4. Find the count of each character inside the string
+myString = "python programming batch of febuary"
+p = ?
+b = ?
+f = ??
+
+Q5. Write a program (WAP) to reverse the tuple
+input = (8, 3, 0, -5, 10, 5)
+
+
+Q6. You have been given a dictionary highlighting names and their mobile numbers.
+WAP to find out the mobile number of person by taking its name from user.
+dictionary = {"nitish" : 7503286013, 
+             "shweta" : 7451425810, 
+             "pawan" :  9987542140, 
+             "aman" : 3074514520, 
+             "pravesh"  7452479585: 
+              "aastha" : 8888999997, 
+              "pooja" : 4458777789}
+
+Eg : inputName = "nitish"
+output = 7503286013
+
+
+Q7. You have been given a dictionary highlighting names and their mobile numbers.
+WAP to find replace the mobile number of person by taking its name from user.
+dictionary = {"nitish" : 7503286013, 
+             "shweta" : 7451425810, 
+             "pawan" :  9987542140, 
+             "aman" : 3074514520, 
+             "pravesh"  7452479585: 
+              "aastha" : 8888999997, 
+              "pooja" : 4458777789}
+
+Eg : inputName = "nitish"
+number = 9999999999
+output : dictionary = {"nitish" : 9999999999, 
+             "shweta" : 7451425810, 
+             "pawan" :  9987542140, 
+             "aman" : 3074514520, 
+             "pravesh"  7452479585: 
+              "aastha" : 8888999997, 
+              "pooja" : 4458777789}
+
+
+
+Q8. You have been given a dictionary highlighting names and their mobile numbers.
+WAP to find insert a pair of new name and their mobile number by taking from user.
+dictionary = {"nitish" : 7503286013, 
+             "shweta" : 7451425810, 
+             "pawan" :  9987542140, 
+             "aman" : 3074514520, 
+             "pravesh"  7452479585: 
+              "aastha" : 8888999997, 
+              "pooja" : 4458777789}
+
+Eg : inputName = "sanjay"
+number = 9999999999
+output : dictionary = {"nitish" : 7503286013, 
+             "shweta" : 7451425810, 
+             "pawan" :  9987542140, 
+             "aman" : 3074514520, 
+             "pravesh"  7452479585: 
+              "aastha" : 8888999997, 
+              "pooja" : 4458777789, 
+              "sanjay" : 9999999999}
+
+Q9. You have been given a dictionary highlighting names and their mobile numbers.
+Write a program to share a common message as described below to the following users written inside dictionary.
+message = "Congratulations <USERNAME> for entering the tournament. Details are shared in your phone number <PHONENUMBER>"
+dictionary = {"nitish" : 7503286013, 
+             "shweta" : 7451425810, 
+             "pawan" :  9987542140, 
+             "aman" : 3074514520, 
+             "pravesh"  7452479585: 
+              "aastha" : 8888999997, 
+              "pooja" : 4458777789}
